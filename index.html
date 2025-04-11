@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-ixon" href="images/briefcase.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+<!-- ===============================AOS LIBRARY=============================== -->
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="loader">
+        <h1>Hi There</h1>
+        <h1>Welcome To My Digital Space</h1>
+        <h1>Let's Go</h1>
+    </div>
+  <header>
+    <h2 class="logo">
+      <img src="images/Gemini_Generated_Image_6eykk6eykk6eykk6-removebg-preview.png" alt="Logo Image">
+    </h2>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  
+    <nav class="navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="about">
+    <div class="content" >
+      <h2>Hi, I'm <span>Shubham Singh</span></h2>
+      <span id="element">python Developer</span>
+      <p>"I am a web developer with 2+ years of experience specializing in front-end technologies. My expertise includes
+        HTML, CSS, JavaScript, Python and Backend tools(MongoDb, SQL). I have worked on numerous projects where I focused on improving website performance,
+        building scalable applications, and ensuring an excellent user experience.
+
+        I am passionate about continuous learning, recently completing advanced certifications in web Development, and I
+        actively contribute to open-source projects. Additionally, I am a strong believer in teamwork and communication,
+        having successfully collaborated with designers, product managers, and fellow developers to deliver high-quality
+        web applications.</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/shubham-singh38" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:shubham.singh93100@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://github.com/shubham-singh9310" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="btn-group">
+        <a href="SHUBHAM KR. SINGH RESUME.pdf" target="_blank">My Resume</a>
+        <a href="mailto:shubham.singh93100@gmail.com" target="_blank">Contact Me</a>
+      </div>
+    </div>
+    <img src="images/WhatsApp Image 2025-02-04 at 12.29.01_dd82f11b.jpg" alt="Shubham Image">
+  </section>
+
+
+  <hr class="line">
+
+
+  <!------------------------Skills Section -------------------------------------->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section__title" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Technical E<span class="purple">x</span>pertise</h2>
+
+      <div class="skills__container">
+        <div class="skills__content">
+          <div class="skills__info" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <h3 class="skills__subtitle">Professional <span class="skillset">Skillset</span></h3>
+            <p class="skills__description">
+              Experienced in building scalable applications with modern web
+              technologies and best practices in software development.
+            </p>
+          </div>
+
+          <div class="skills__list">
+            <div class="skills__card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="skills__card-header">
+                <i class="ri-html5-fill skills__icon"></i>
+                <span class="skills__percentage-text">99%</span>
+              </div>
+              <h3 class="skills__card-title">HTML</h3>
+              <p class="skills__card-description">
+                Proficient in building responsive web pages using HTML5.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="width: 99%">
+                  <div class="skills__percentage-glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="skills__card-header">
+                <i class="ri-css3-fill skills__icon"></i>
+                <span class="skills__percentage-text">99%</span>
+              </div>
+              <h3 class="skills__card-title">CSS</h3>
+              <p class="skills__card-description">
+                Experienced in implementing responsive designs using Flexbox and Grid.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="width: 99%">
+                  <div class="skills__percentage-glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="skills__card-header">
+                <i class="ri-javascript-fill skills__icon"></i>
+                <span class="skills__percentage-text">90%</span>
+              </div>
+              <h3 class="skills__card-title">JavaScript</h3>
+              <p class="skills__card-description">
+                Proficient in writing clean and efficient JavaScript code for dynamic web applicationsn.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="width: 90%">
+                  <div class="skills__percentage-glow"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skills__card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="skills__card-header">
+                <i class="ri-javascript-fill skills__icon"></i>
+                <span class="skills__percentage-text">98%</span>
+              </div>
+              <h3 class="skills__card-title">Python</h3>
+              <p class="skills__card-description">
+                Proficient in writing clean and efficient python code for dynamic web applicationsn.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="width: 90%">
+                  <div class="skills__percentage-glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="skills__card-header">
+                <i class="ri-database-2-line skills__icon"></i>
+                <span class="skills__percentage-text">89%</span>
+              </div>
+              <h3 class="skills__card-title">SQL</h3>
+              <p class="skills__card-description">
+                Intermediate in database design, normalization, and performance optimization.
+              </p>
+              <div class="skills__bar">
+                <div class="skills__percentage" style="width: 89%">
+                  <div class="skills__percentage-glow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="line">
+
+
+  <!---------------------- Projects Section-------------------------------------->
+  <section id="projects" class="projects">
+    <div class="container1">
+      <h2 class="heading" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Proj<span class="purple">ects</span></h2>
+    </div>
+    <div class="card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" >
+      <div class="card-body">
+        <h2 class="card-title">Taste-Tales</h2>
+        <p class="card-text">A recipe sharing platform where users can share their favorite recipes and discover new
+          ones.</p>
+        <a href="https://recipe-sharing-platform-e9yz.vercel.app/" target="_blank" class="card-btn">Show Website</a>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <div class="card-body">
+        <h2 class="card-title">CMS</h2>
+        <p class="card-text">A Contact-Management System Software that is designed to help users manage their contacts
+          efficiently.</p>
+        <a href="https://github.com/shubham-singh9310/contact-management-system-" target="_blank" class="card-btn">Show Preview</a>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" >
+      <div class="card-body">
+        <h2 class="card-title">Industrial Website</h2>
+        <p class="card-text">A Website that is designed to increase the sales of a company.</p>
+        <a href="https://www.krishnapanel.in/"target="_blank" class="card-btn">Show Website</a>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" >
+      <div class="card-body">
+        <h2 class="card-title">ZARA</h2>
+        <p class="card-text">An AI Chatbot created Using Python And merged with google and chatgpt Which make it more
+          effficient.</p>
+        <a href="https://www.linkedin.com/posts/shubham-singh38_ai-chatbot-machinelearning-activity-7296038727515049985-R044?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEShKzwBdE8dGcIu2CKUn054h5U_ohN3ioo" target="_blank" class="card-btn">Show Preview</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="line">
+
+  <!------------------------ Contact Section ----------------------------------->
+
+  <div class="contact-form" id="contact">
+    <h1 data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Contact <span class="purple">Us</span></h1>
+    <div class="container3" data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <div class="main">
+        <div class="content3">
+          <h2>Get In <span class="purple">Touch</span></h2>
+          <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="5a147934-e553-4ac6-a24c-9ce780a76d42">
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="email" name="name" placeholder="Enter Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+        <div class="form-img" data-aos="fade-up" >
+          <img src="images/contact.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!------------------------ footer Section ----------------------------------->
+
+  <footer data-aos="fade-up" >
+    <div class="footerContainer" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" >
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/shubham-singh38" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:shubham.singh93100@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://github.com/shubham-singh9310" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2025; Designed by <span class="purple-footer">Shubham Singh</span></p>
+    </div>
+</footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer'], // Text strings to type
+      typeSpeed: 50,      // Typing speed (milliseconds per character)
+      backSpeed: 50,      // Backspacing speed
+      loop: true,         // Enables infinite looping
+      loopCount: Infinity, // Infinite loop count
+      backDelay: 1000,    // Delay before backspacing
+      startDelay: 500,    // Initial delay before typing starts
+      smartBackspace: true // Prevents unnecessary typing/erasing
+    });
+
+    AOS.init();
+  </script>
+  <script src="script.js"> </script>
+</body>
+
+</html>
