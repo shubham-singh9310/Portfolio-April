@@ -303,6 +303,12 @@ header {
 .skills__icon {
   font-size: 1.9rem;
 }
+.fa-file-excel {
+  font-size: 27px;
+}
+.fa-figma{
+  font-size: 27px;
+}
 
 .skills__percentage-text {
   font-size: 1.5rem;
